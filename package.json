@@ -1,0 +1,30 @@
+{
+  "name": "6502.js",
+  "version": "1.0.0",
+  "description": "A 6502 Emulator",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc -w -p .",
+    "start": "node src/index.js",
+    "start:ts": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "Emulator",
+    "6502"
+  ],
+  "author": "AlasDiablo, Safyrus",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}
