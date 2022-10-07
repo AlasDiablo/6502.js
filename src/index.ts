@@ -1,4 +1,4 @@
-import MathExt from "./math";
+import MathExt from './math';
 
 console.time('test');
 console.log(MathExt.getRandomUint16());
