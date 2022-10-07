@@ -23,7 +23,7 @@ const getBit = (num: number, position: number): bit => {
 
 export default {
     getRandomInRange,
-    getRandomBool: getRandomBit,
+    getRandomBit,
     getRandomUint8,
     getRandomUint16,
     setBit,

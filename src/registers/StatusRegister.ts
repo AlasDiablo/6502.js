@@ -11,11 +11,11 @@ let localZ: bit = 0;
 let localC: bit = 0;
 
 const populate = () => {
-    localN = MathExt.getRandomBool();
-    localV = MathExt.getRandomBool();
-    localI = MathExt.getRandomBool();
-    localZ = MathExt.getRandomBool();
-    localC = MathExt.getRandomBool();
+    localN = MathExt.getRandomBit();
+    localV = MathExt.getRandomBit();
+    localI = MathExt.getRandomBit();
+    localZ = MathExt.getRandomBit();
+    localC = MathExt.getRandomBit();
 };
 
 const set = (value: number) => {
