@@ -4,11 +4,11 @@ import MathExt from '../math';
 import { bit } from '../math/types';
 
 // NV---IZC
-let localN: bit = 0;
-let localV: bit = 0;
-let localI: bit = 0;
-let localZ: bit = 0;
-let localC: bit = 0;
+let localN: bit;
+let localV: bit;
+let localI: bit;
+let localZ: bit;
+let localC: bit;
 
 const populate = () => {
     localN = MathExt.getRandomBit();

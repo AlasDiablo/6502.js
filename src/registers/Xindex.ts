@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/extensions,import/no-unresolved
 import MathExt from '../math';
 
-let localValue: number = 0;
+let localValue: number;
 
 const populate = () => {
     localValue = MathExt.getRandomUint8();
@@ -30,4 +30,3 @@ export default {
     inc,
     dec,
 };
-
